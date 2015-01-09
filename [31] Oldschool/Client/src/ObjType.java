@@ -2,7 +2,7 @@
  * Visit http://jode.sourceforge.net/
  */
 
-public class ObjType extends Class91_Sub20 {//items
+public class ObjType extends Class91_Sub20 {
 	int anInt2349;
 	public static Js5 aClass63_2350;
 	int anInt2351;

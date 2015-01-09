@@ -50,18 +50,14 @@ public class Class60 {
 	}
 
 	public static LocType method392(final int i, final int i_3_) {
-		//so i know i probably wasnt helpful but i identified a few for u lol
-		//all good but another thing.. Idk if frost sent me it correctly or if i'm just missing these things.
-		//i only have two options for the frame am i outdated or? thats all i added so far
 		LocType class91_sub20_sub7;
 		try {
 			LocType class91_sub20_sub7_4_ = (LocType) LocType.aClass96_2299.method1068(i);
 			if (class91_sub20_sub7_4_ != null) {
 				return class91_sub20_sub7_4_;
 			}
-			final byte[] is = LocType.aClass63_2336.getFile(6, i, 948179739);//this is archive 6 in index2// which is objects/loc
-			//how'd you change?? As in one button change all. never knew that
-			class91_sub20_sub7_4_ = new LocType();//highlight then press alt+shift+r
+			final byte[] is = LocType.aClass63_2336.getFile(6, i, 948179739);
+			class91_sub20_sub7_4_ = new LocType();
 			class91_sub20_sub7_4_.anInt2304 = -1362439873 * i;
 			if (is != null) {
 				class91_sub20_sub7_4_.decode(new ByteBuffer(is), -2088271103);

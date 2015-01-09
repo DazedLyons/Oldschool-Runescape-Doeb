@@ -39,8 +39,7 @@ public class Class100 {
 			if (class91_sub20_sub11_2_ != null) {
 				return class91_sub20_sub11_2_;
 			}
-			final byte[] is = NpcType.npcJs5.getFile(9, i, 1871358586);//
-			//aClass63_2433 is the index2 and it gets archive 9 which is npcs
+			final byte[] is = NpcType.npcJs5.getFile(9, i, 1871358586);
 			class91_sub20_sub11_2_ = new NpcType();
 			class91_sub20_sub11_2_.anInt2427 = -1049043245 * i;
 			if (is != null) {

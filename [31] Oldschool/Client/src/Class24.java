@@ -64,15 +64,14 @@ public abstract class Class24 {
 			}
 		} while (false);
 	}
-//this is identikit or what most people call identity kit but actually andrew gower said its identikit
-	public static IdkType method227(final int i, final int i_0_) {//u could name these classes better but im using what jagex calls them
+	public static IdkType method227(final int i, final int i_0_) {
 		IdkType class91_sub20_sub1;
 		try {
 			IdkType class91_sub20_sub1_1_ = (IdkType) IdkType.aClass96_2218.method1068(i);
 			if (class91_sub20_sub1_1_ != null) {
 				return class91_sub20_sub1_1_;
 			}
-			final byte[] is = IdkType.idkJs5.getFile(3, i, -1502105353);//this is identikit
+			final byte[] is = IdkType.idkJs5.getFile(3, i, -1502105353);
 			class91_sub20_sub1_1_ = new IdkType();
 			if (is != null) {
 				class91_sub20_sub1_1_.method725(new ByteBuffer(is), -765867495);

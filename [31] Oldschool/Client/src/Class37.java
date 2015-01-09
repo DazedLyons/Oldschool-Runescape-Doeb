@@ -47,7 +47,7 @@ public class Class37 {
 			if (class91_sub20_sub10_4_ != null) {
 				return class91_sub20_sub10_4_;
 			}
-			final byte[] is = FloUnderlayType.underlayJs5.getFile(1, i, -896455996);//well ill do another one that goes with this
+			final byte[] is = FloUnderlayType.underlayJs5.getFile(1, i, -896455996);
 			class91_sub20_sub10_4_ = new FloUnderlayType();
 			if (is != null) {
 				class91_sub20_sub10_4_.method803(new ByteBuffer(is), i, -727788889);
